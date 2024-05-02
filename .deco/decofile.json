@@ -1,4 +1,7 @@
 {
+  "Footer": {
+    "__resolveType": "site/sections/Footer.tsx"
+  },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
     "buttonStyle": {
@@ -206,7 +209,8 @@
         "name": "It Works!"
       },
       {
-        "__resolveType": "Footer"
+        "__resolveType": "site/sections/Footer.tsx",
+        "text": "Guia de Turismo "
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -244,8 +248,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "Footer": {
-    "__resolveType": "site/sections/Footer.tsx"
   }
 }
