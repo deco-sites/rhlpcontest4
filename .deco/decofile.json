@@ -207,6 +207,9 @@
       {
         "__resolveType": "site/sections/Footer.tsx",
         "text": "Guia de Turismo"
+      },
+      {
+        "__resolveType": "Preview /sections/ItWorks.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
