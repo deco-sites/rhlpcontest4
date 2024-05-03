@@ -225,8 +225,25 @@
         ]
       },
       {
+        "__resolveType": "site/sections/AboutUs.tsx",
+        "text": "Sobre nós",
+        "description": "Bem-vindo ao mundo das viagens sob uma nova perspectiva! Nosso guia de turismo é mais do que um simples companheiro de viagem - é um portal para descobertas emocionantes e aventuras inesquecíveis. Com uma riqueza de conhecimento local e uma paixão pelo compartilhamento de experiências autênticas, nosso guia está aqui para transformar sua jornada em uma jornada verdadeiramente memorável.",
+        "order": "flex-row",
+        "mobileOrder": "flex-col",
+        "anchors": [
+          {
+            "text": "Conheça lugares memoráveis",
+            "rootId": "#"
+          },
+          {
+            "text": "Ofertas Imperdíveis",
+            "rootId": "#"
+          }
+        ]
+      },
+      {
         "__resolveType": "site/sections/Footer.tsx",
-        "text": "Guia de Turismo"
+        "text": "Guia de turismo"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
