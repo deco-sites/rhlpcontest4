@@ -1,12 +1,34 @@
-function Header() {
+import { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
+interface Props {
+    titleIcon: {
+        image?: ImageWidget;
+        width?: string;
+        height?: string;
+    }
+    title: string;
+    navbar: {
+        url: string;
+        title: string;
+    }[];
+}
+
+function Header({ titleIcon, title, navbar }: Props) {
     return (
-        <header class="bg-white border-b-solid border-b-2 border-b-black">
-            <section class="max-w-[1440px] flex items-center justify-between">
-                <span class="text-lg">Guia de turismo</span>
-                <div>
-                    <span class="text-sm">Sobre nós</span>
-                    <span class="text-sm">Oferta</span>
-                    <span class="text-sm">Contate-nos</span>
+        <header class="bg-white border-b-solid border-b-[1px] border-b-black px-4 lg:px-0">
+            <section class="max-w-[1440px] mx-auto flex items-center justify-between py-4">
+                <div class="flex items-center">{titleIcon && (
+                    <Image
+                        src={titleIcon.image || ""}
+                        alt="title icon"
+                        height={titleIcon.height || 20}
+                        width={titleIcon.width || 35}
+                    />
+                )} <span class="text-lg">{title}</span></div>
+                <div class="flex gap-3">
+                    {navbar.map((items) => (
+                        <a href={items.url}><span class="text-sm">{items.title}</span></a>
+                    ))}
                 </div>
             </section>
         </header>
