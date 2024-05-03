@@ -9,7 +9,8 @@ import * as $$$$$$1 from "./sections/Footer.tsx";
 import * as $$$$$$2 from "./sections/Header.tsx";
 import * as $$$$$$3 from "./sections/Info.tsx";
 import * as $$$$$$4 from "./sections/ItWorks.tsx";
-import * as $$$$$$5 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$5 from "./sections/MainBanner.tsx";
+import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -18,7 +19,8 @@ const manifest = {
     "site/sections/Header.tsx": $$$$$$2,
     "site/sections/Info.tsx": $$$$$$3,
     "site/sections/ItWorks.tsx": $$$$$$4,
-    "site/sections/Theme/Theme.tsx": $$$$$$5,
+    "site/sections/MainBanner.tsx": $$$$$$5,
+    "site/sections/Theme/Theme.tsx": $$$$$$6,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
