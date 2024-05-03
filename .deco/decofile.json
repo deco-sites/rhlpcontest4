@@ -79,6 +79,9 @@
   "Preview /sections/Footer.tsx": {
     "__resolveType": "site/sections/Footer.tsx"
   },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx"
+  },
   "Preview /sections/ItWorks.tsx": {
     "__resolveType": "site/sections/ItWorks.tsx",
     "name": "<p>It Works!</p>"
@@ -205,7 +208,21 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "site/sections/Header.tsx",
+        "title": "Guia de turismo",
+        "titleIcon": {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8751/6a03ce8a-e6ea-496d-a82e-178166363760"
+        },
+        "navbar": [
+          {
+            "url": "#",
+            "title": "Sobre nós"
+          },
+          {
+            "url": "#",
+            "title": "Oferta"
+          }
+        ]
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
@@ -247,8 +264,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx"
   }
 }
